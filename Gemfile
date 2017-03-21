@@ -59,6 +59,10 @@ gem 'activeadmin_addons', '~> 0.9.3'
 # https://github.com/plataformatec/devise
 gem 'devise', '~> 4.2.0'
 
+# WeChat gem tries to help Rails developer to integrate enterprise account / public account easily.
+# https://github.com/Eric-Guo/wechat
+gem 'wechat', '~> 0.8.6'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
