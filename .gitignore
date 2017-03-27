@@ -100,3 +100,5 @@ config/database.yml
 
 # ignore pingpp_private_key.pem
 config/pingpp_private_key.pem
+
+/test/*
